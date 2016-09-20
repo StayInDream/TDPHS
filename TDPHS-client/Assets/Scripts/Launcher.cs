@@ -7,6 +7,8 @@ using LP;
 /// </summary>
 public class Launcher : BaseBehaviour
 {
+    public static bool isDebug = true;
+
     public static Launcher Inst
     {
         get; private set;
