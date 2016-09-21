@@ -7,11 +7,25 @@ using LP;
 /// </summary>
 public class Launcher : BaseBehaviour
 {
-    public static bool isDebug = true;
+    [SerializeField]
+    public  bool isDebug = true;
 
     public static Launcher Inst
     {
         get; private set;
+    }
+
+    public static bool IsDebug
+    {
+        private set
+        {
+            Inst.isDebug = value;
+        }
+        get
+        {
+            return Inst.isDebug;
+        }
+        
     }
 
     void Awake()
@@ -23,6 +37,7 @@ public class Launcher : BaseBehaviour
             return;
         }
         Inst = this;
+        IsDebug = isDebug;
         DontDestroyOnLoad( CachedGameObject );
         //启动游戏
     }

@@ -12,7 +12,7 @@ namespace LP
     /// <summary>
     /// 文件日志辅助类
     /// </summary>
-    public static class Logger
+    public static class MLogger
     {
         // NeedStop
         private static bool mNeedStop = false;
@@ -21,6 +21,47 @@ namespace LP
         // 消息对象队列
         //    private static LocklessQueue<LogMessage> mMessageQueue = new LocklessQueue<LogMessage>();
         private static Queue<LogMessage> mMessageQueue = new Queue<LogMessage>();
+
+        /// <summary>
+        /// 初始化日志工具
+        /// </summary>
+        public static void Initialize()
+        {
+            mNeedStop = false;
+            if(mWriter == null)
+            {
+                string logPath = Path.Combine( Settings.UNITY_LOG_FOLDER, string.Concat( Engine.GetNowString(), ".log" ) );
+
+                foreach(string item in Directory.GetFiles( Settings.UNITY_LOG_FOLDER, "*.log", SearchOption.TopDirectoryOnly ))
+                {
+                    try
+                    {
+                        if(new FileInfo( item ).Length == 0)
+                        {
+                            File.Delete( item );
+                            continue;
+                        }
+                        string shortname = Path.GetFileNameWithoutExtension( item );
+                        DateTime dt = DateTime.ParseExact( shortname, "yyyy-MM-dd HH-mm-ss", null );
+                        TimeSpan span = DateTime.Now - dt;
+                        if(span.TotalDays >= 2)
+                            File.Delete( item );
+                    }
+                    catch(Exception)
+                    {
+                        try
+                        {
+                            File.Delete( item );
+                        }
+                        catch { }
+
+                    }
+                }
+            }
+
+
+
+        }
 
         #region 日志消息
         private sealed class LogMessage
@@ -117,6 +158,6 @@ namespace LP
             }
 
         }
+        #endregion
     }
-    #endregion
 }
