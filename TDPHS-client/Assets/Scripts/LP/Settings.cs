@@ -42,9 +42,14 @@ namespace LP
         public static string UNITY_LOG_FOLDER;
 
         /// <summary>
-        /// 日志文件
+        /// 正常日志文件
         /// </summary>
         public static string UNITY_LOG_FILE;
+
+        /// <summary>
+        /// 异常日志文件
+        /// </summary>
+        public static string UNITY_LOG_ERROR;
 
         /// <summary>
         /// 当前平台的名称(win,android,ios)
@@ -90,6 +95,9 @@ namespace LP
                 {
                     FileUtil.EnsureFileParent( UNITY_LOG_FOLDER ,"log.txt" );
                     UNITY_LOG_FILE = UrlUtil.Combine( UNITY_LOG_FOLDER,"log.txt" );
+
+                    FileUtil.EnsureFileParent(UNITY_LOG_FOLDER,"logError.txt");
+                    UNITY_LOG_ERROR = UrlUtil.Combine( UNITY_LOG_FOLDER, "logError.txt" );
                 }
                 catch { }
             }

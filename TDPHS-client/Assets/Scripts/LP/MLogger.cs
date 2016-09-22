@@ -18,6 +18,8 @@ namespace LP
         private static bool mNeedStop = false;
         // Writer
         private static StreamWriter mWriter = null;
+        private static StreamWriter mWriterForError = null;
+
         // 消息对象队列
         //    private static LocklessQueue<LogMessage> mMessageQueue = new LocklessQueue<LogMessage>();
         private static Queue<LogMessage> mMessageQueue = new Queue<LogMessage>();
@@ -61,6 +63,42 @@ namespace LP
                 mWriter.AutoFlush = true;
             }
 
+            if(mWriterForError == null)
+            {
+                string logPath = Path.Combine( Settings.UNITY_LOG_FOLDER, string.Concat( Engine.GetNowString(), ".logError" ) );
+
+                foreach(string item in Directory.GetFiles( Settings.UNITY_LOG_FOLDER, "*.logError", SearchOption.TopDirectoryOnly ))
+                {
+                    try
+                    {
+                        if(new FileInfo( item ).Length == 0)
+                        {
+                            File.Delete( item );
+                            continue;
+                        }
+                        string shortname = Path.GetFileNameWithoutExtension( item );
+                        DateTime dt = DateTime.ParseExact( shortname, "yyyy-MM-dd HH-mm-ss", null );
+                        TimeSpan span = DateTime.Now - dt;
+                        if(span.TotalDays >= 2)
+                            File.Delete( item );
+                    }
+                    catch(Exception)
+                    {
+                        try
+                        {
+                            File.Delete( item );
+                        }
+                        catch { }
+                    }
+                }
+
+                mWriterForError = new StreamWriter( logPath, false, Encoding.UTF8 );
+                mWriterForError.AutoFlush = true;
+            }
+
+
+
+
             // 每次启动的时候多拉几行空格，便于阅读
             if(mWriter.BaseStream.Position > 0L)
             {
@@ -81,16 +119,21 @@ namespace LP
             while(true)
             {
                 LogMessage message = null;
-                
+
             }
         }
 
         private static void OnLogCallback( string condition, string stackTrace, LogType type )
         {
             // 写入到文件中
+            if(type == LogType.Error && !string.IsNullOrEmpty( stackTrace ))
+            {
+                condition = condition.Insert( 0, "  错误！stackTrace=>" + stackTrace + ":ERROR-start******" );
+                condition = condition.Insert( condition.Length - 1, " ERROR-end*****]  " );
+            }
             mWriter.WriteLine( condition );
-            if(type != LogType.Log && !string.IsNullOrEmpty( stackTrace ))
-                mWriter.WriteLine( stackTrace );
+            //if(type != LogType.Error && type != LogType.Log && !string.IsNullOrEmpty( stackTrace ))
+            //    mWriter.WriteLine( stackTrace );
         }
 
         /// <summary>
