@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 using LP;
+using System;
+using System.IO;
 
 /// <summary>
 /// 游戏加载器
 /// </summary>
 public class Launcher : BaseBehaviour
 {
-    [SerializeField]
-    public  bool isDebug = true;
+    private  bool isDebug = true;
 
     public static Launcher Inst
     {
@@ -37,9 +38,10 @@ public class Launcher : BaseBehaviour
             return;
         }
         Inst = this;
-        IsDebug = isDebug;
+        IsDebug = File.Exists(Settings.UNITY_LOG_FILE);
         DontDestroyOnLoad( CachedGameObject );
         //启动游戏
+        Engine.StartEngine(CachedGameObject);
     }
 
     // Use this for initialization

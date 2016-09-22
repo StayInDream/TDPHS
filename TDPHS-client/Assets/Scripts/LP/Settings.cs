@@ -84,12 +84,12 @@ namespace LP
             FileUtil.EnsureFolder( UNITY_RAW_FOLDER );
 
             
-            if(Debug)
+            if(!Debug)
             {
                 try
                 {
                     FileUtil.EnsureFileParent( UNITY_LOG_FOLDER ,"log.txt" );
-                    UNITY_LOG_FILE = UrlUtil.Combine( UNITY_LOG_FOLDER,"log" );
+                    UNITY_LOG_FILE = UrlUtil.Combine( UNITY_LOG_FOLDER,"log.txt" );
                 }
                 catch { }
             }

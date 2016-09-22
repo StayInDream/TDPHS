@@ -54,14 +54,63 @@ namespace LP
                             File.Delete( item );
                         }
                         catch { }
-
                     }
+                }
+
+                mWriter = new StreamWriter( logPath, false, Encoding.UTF8 );
+                mWriter.AutoFlush = true;
+            }
+
+            // 每次启动的时候多拉几行空格，便于阅读
+            if(mWriter.BaseStream.Position > 0L)
+            {
+                for(int i = 0; i < 10; i++)
+                {
+                    mWriter.WriteLine();
                 }
             }
 
-
-
+            Application.RegisterLogCallbackThreaded(OnLogCallback);
         }
+
+        private static void OnLogCallback( string condition, string stackTrace, LogType type )
+        {
+            // 写入到文件中
+            mWriter.WriteLine( condition );
+            if(type != LogType.Log && !string.IsNullOrEmpty( stackTrace ))
+                mWriter.WriteLine( stackTrace );
+        }
+
+        /// <summary>
+        /// 输出Engine模块的Debug信息
+        /// </summary>
+        internal static void LogEngine( string format, params object[] args )
+        {
+            LogEngine( string.Format( format, args ) );
+        }
+
+        /// <summary>
+        /// 输出Engine模块的Debug信息
+        /// </summary>
+        public static void LogEngine( string message )
+        {
+            Log( "Engine", LogType.Log, message );
+        }
+
+        public static void Log( string tag, LogType type, object message )
+        {
+            // 非Debug模式不输出
+            if(!Settings.Debug)
+                return;
+            // 直接用Debug.Log会造成较大的CPU消耗,所以用线程来输出日志
+            string stackTrace = null;
+            if(message is Exception)
+                stackTrace = StackTraceUtility.ExtractStringFromException( message );
+            else
+                stackTrace = StackTraceUtility.ExtractStackTrace();
+            mMessageQueue.Enqueue( LogMessage.Acquire( tag, type, message, stackTrace ) );
+        }
+
 
         #region 日志消息
         private sealed class LogMessage
