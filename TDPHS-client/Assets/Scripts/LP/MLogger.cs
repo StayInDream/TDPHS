@@ -70,7 +70,19 @@ namespace LP
                 }
             }
 
-            Application.RegisterLogCallbackThreaded(OnLogCallback);
+            Application.logMessageReceivedThreaded += OnLogCallback;
+
+            //开辟一个线程来执行LogMessage
+            Thread logThread = new Thread( LogMessageHandler, 5 );
+        }
+
+        private static void LogMessageHandler()
+        {
+            while(true)
+            {
+                LogMessage message = null;
+                
+            }
         }
 
         private static void OnLogCallback( string condition, string stackTrace, LogType type )
