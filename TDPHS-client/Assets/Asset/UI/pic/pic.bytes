@@ -1,0 +1,14 @@
+package.xml|777|<packageDescription id="uk9a5b3b" name="pic">
+  <resources>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="d4mig" name="pic_脚下云2" size="630,508" exported="true"/>
+    <image id="d4mih" name="pic_脚下云1" size="796,404" exported="true"/>
+    <image id="d4mil" name="pic_云2" size="344,246" exported="true"/>
+    <image id="d4mim" name="pic_云1" size="391,153" exported="true"/>
+    <image id="d4min" name="pic_人物" size="323,464" exported="true"/>
+    <image id="d4mio" name="pic_进度人物" size="656,945" exported="true"/>
+    <image id="d4mip" name="bg03" size="800,450" exported="true"/>
+    <image id="d4miq" name="bg02" size="800,534" exported="true"/>
+    <image id="d4mir" name="bg01" size="800,721" exported="true"/>
+  </resources>
+</packageDescription>

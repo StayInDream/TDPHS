@@ -1,0 +1,149 @@
+gc421c.xml|8012|<component size="1136,640" overflow="hidden">
+  <controller name="c1" autoRadioGroupDepth="true" pages="0,主页面,1,注册页面,2,选服页面" selected="0"/>
+  <displayList>
+    <image id="n54" name="n54" src="d4mip" pkg="uk9a5b3b" xy="0,0" size="1136,639"/>
+    <image id="n50" name="n50" src="hp2t29" xy="342,100" size="450,71" group="n51"/>
+    <text id="n1" name="n1" xy="343,96" size="450,75" group="n51" filter="color" filterData="0.00,1.00,1.00,-0.05" fontSize="50" color="#ff9900" align="center" vAlign="middle" letterSpacing="3" autoSize="none" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="泰斗破坏神"/>
+    <group id="n51" name="go_logotitle" xy="342,96" size="451,75" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n9" name="n9" xy="414,358" size="99,34" group="n17" fontSize="30" color="#ff3333" vAlign="middle" letterSpacing="3" autoSize="height" strokeColor="#996600" singleLine="true" text="密码："/>
+    <image id="n10" name="n10" src="hp2t2d" xy="520,355" group="n17"/>
+    <text id="n13" name="Tex_mima" xy="523,356" size="188,34" group="n17" input="true" fontSize="30" color="#00ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" strokeColor="#990033" singleLine="true" text="123456"/>
+    <image id="n19" name="n19" src="hp2t2a" xy="398,360" size="120,30" group="n17"/>
+    <group id="n17" name="go_mimazuhe" xy="398,355" size="322,37" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n5" name="n5" src="hp2t2d" xy="520,302" group="n20"/>
+    <image id="n15" name="n15" src="hp2t2a" xy="416,301" size="92,35" group="n20"/>
+    <text id="n6" name="n6" xy="415,302" size="99,34" group="n20" fontSize="30" color="#ff3333" vAlign="middle" letterSpacing="3" autoSize="height" strokeColor="#996600" singleLine="true" text="账号："/>
+    <text id="n11" name="Tex_zhanghao" xy="526,305" size="188,34" group="n20" input="true" fontSize="30" color="#00ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" strokeColor="#990000" singleLine="true" text="123456"/>
+    <group id="n20" name="go_zhanhao" xy="415,301" size="305,38" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n21" name="btn_zhuce" src="sm752m" xy="368,470">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="注册" titleColor="#ff0000" controller="c1" page="1"/>
+    </component>
+    <component id="n22" name="btn_zhuce" src="sm752m" xy="696,470">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="进入" titleColor="#ff0000" sound="" volume="100" controller="c1" page="2"/>
+    </component>
+    <image id="n55" name="n55" src="d4mir" pkg="uk9a5b3b" xy="343,186" size="450,405" group="n30"/>
+    <text id="n48" name="n48" xy="465,199" size="200,34" group="n30" fontSize="30" color="#ff3333" align="center" vAlign="middle" letterSpacing="3" autoSize="height" strokeColor="#996600" singleLine="true" text="新用户注册">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <image id="n37" name="n37" src="hp2t2d" xy="520,283" group="n41"/>
+    <image id="n38" name="n38" src="hp2t2a" xy="416,282" size="92,35" group="n41"/>
+    <text id="n39" name="n39" xy="415,283" size="99,34" group="n41" fontSize="30" color="#ff3333" vAlign="middle" letterSpacing="3" autoSize="height" strokeColor="#996600" singleLine="true" text="账号："/>
+    <text id="n40" name="Tex_zhanghao" xy="526,286" size="188,34" group="n41" input="true" fontSize="30" color="#00ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" strokeColor="#990000" singleLine="true" text="123456"/>
+    <group id="n41" name="go_zhanhao" xy="415,360" size="305,38" group="n30" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n32" name="n32" xy="418,347" size="99,34" group="n36" fontSize="30" color="#ff3333" vAlign="middle" letterSpacing="3" autoSize="height" strokeColor="#996600" singleLine="true" text="密码："/>
+    <image id="n33" name="n33" src="hp2t2d" xy="524,344" group="n36"/>
+    <text id="n34" name="Tex_mima" xy="527,345" size="188,34" group="n36" input="true" fontSize="30" color="#00ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" strokeColor="#990033" singleLine="true" text="123456"/>
+    <image id="n35" name="n35" src="hp2t2a" xy="402,349" size="120,30" group="n36"/>
+    <group id="n36" name="go_mimazuhe" xy="402,344" size="322,37" group="n30" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n42" name="n42" xy="370,418" size="148,34" group="n46" fontSize="30" color="#ff3333" vAlign="middle" letterSpacing="3" autoSize="height" strokeColor="#996600" singleLine="true" text="确认密码："/>
+    <image id="n43" name="n43" src="hp2t2d" xy="525,415" group="n46"/>
+    <text id="n44" name="Tex_mima" xy="528,416" size="188,34" group="n46" input="true" fontSize="30" color="#00ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" strokeColor="#990033" singleLine="true" text="123456"/>
+    <image id="n45" name="n45" src="hp2t2a" xy="370,420" size="146,30" group="n46"/>
+    <group id="n46" name="go_mimazuhe" xy="370,415" size="355,37" group="n30" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n49" name="btn_close" src="sm752m" xy="714,181" group="n30">
+      <gearDisplay controller="c1" pages=""/>
+      <relation target="" sidePair=""/>
+      <Button icon="ui://isdzji81hp2t21" selectedIcon="ui://isdzji81hp2t21" controller="c1" page="0"/>
+    </component>
+    <group id="n30" name="go_zhuce" xy="343,186" size="450,405" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n17" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n20" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="XY" target="n22" tween="true" startValue="-,800" endValue="696,450" duration="12"/>
+    <item time="0" type="XY" target="n1" tween="true" startValue="343,-150" endValue="-,100" duration="12"/>
+    <item time="0" type="XY" target="n50" tween="true" startValue="-,-150" endValue="-,100" duration="12"/>
+    <item time="0" type="XY" target="n21" tween="true" startValue="368,800" endValue="368,450" duration="12"/>
+    <item time="12" type="Alpha" target="n1" tween="true" startValue="1" endValue="0.1" duration="24" repeat="-1"/>
+    <item time="12" type="Alpha" target="n20" tween="true" startValue="1"/>
+    <item time="12" type="Shake" target="n1" value="3,0.5"/>
+    <item time="12" type="XY" target="n22" tween="true" startValue="696,450"/>
+    <item time="12" type="XY" target="n50" tween="true" startValue="-,100"/>
+    <item time="12" type="XY" target="n1" tween="true" startValue="-,100"/>
+    <item time="12" type="XY" target="n21" tween="true" startValue="368,450"/>
+    <item time="36" type="Alpha" target="n1" tween="true" startValue="0.1" endValue="1" duration="24" repeat="-1" yoyo="true"/>
+    <item time="60" type="Alpha" target="n1" tween="true" startValue="1" repeat="-1"/>
+  </transition>
+  <transition name="t2" autoPlay="true"/>
+</component>package.xml|2877|<packageDescription id="isdzji81" name="StartWin">
+  <resources>
+    <atlas id="atlas0" size="1024,512" file="atlas0.png"/>
+    <component id="gc421c" name="StartWin" exported="true" size="1136,640"/>
+    <component id="sm752m" name="commonBtn" size="100,50"/>
+    <image id="hp2t1g" name="bg_enterGameBottom" size="200,9" exported="true"/>
+    <image id="hp2t1h" name="eft_loading" size="16,37" exported="true"/>
+    <image id="hp2t1i" name="btn01" size="100,15" exported="true"/>
+    <image id="hp2t1j" name="btn_red03" size="200,63" exported="true"/>
+    <image id="hp2t1k" name="btn_red02" size="200,63" exported="true"/>
+    <image id="hp2t1l" name="btn_red01" size="200,63" exported="true"/>
+    <image id="hp2t1m" name="btn_deepblue04" size="200,42" exported="true"/>
+    <image id="hp2t1n" name="btn_deepblue03" size="200,42" exported="true"/>
+    <image id="hp2t1o" name="btn_deepblue02" size="200,42" exported="true"/>
+    <image id="hp2t1p" name="btn_deepBlue01" size="200,42" exported="true"/>
+    <image id="hp2t1q" name="btn_close4" size="100,100" exported="true"/>
+    <image id="hp2t1r" name="btn_close3" size="100,100" exported="true"/>
+    <image id="hp2t1s" name="btn_close2" size="100,100" exported="true"/>
+    <image id="hp2t1t" name="btn_close1" size="100,100" exported="true"/>
+    <image id="hp2t1u" name="btn_blue4" size="100,33" exported="true"/>
+    <image id="hp2t1v" name="btn_blue3" size="100,33" exported="true"/>
+    <image id="hp2t1w" name="btn_blue2" size="100,33" exported="true" scale="9grid" scale9grid="25,9,50,14"/>
+    <image id="hp2t1x" name="btn_blue1" size="100,33" exported="true" scale9grid="15,10,70,13" scale="9grid"/>
+    <image id="hp2t1y" name="btn_back4" size="100,100" exported="true"/>
+    <image id="hp2t1z" name="btn_back3" size="100,100" exported="true"/>
+    <image id="hp2t20" name="btn_back2" size="100,100" exported="true"/>
+    <image id="hp2t21" name="btn_back1" size="100,100" exported="true"/>
+    <image id="hp2t22" name="btn_05" size="200,32" exported="true"/>
+    <image id="hp2t23" name="btn_4" size="200,32" exported="true"/>
+    <image id="hp2t24" name="btn_03" size="200,32" exported="true"/>
+    <image id="hp2t25" name="btn_2" size="200,31" exported="true"/>
+    <image id="hp2t26" name="bg_sever" size="100,66" exported="true"/>
+    <image id="hp2t27" name="bg_region" size="100,90" exported="true" scale9grid="14,18,75,61"/>
+    <image id="hp2t28" name="bg_notice" size="100,113" exported="true"/>
+    <image id="hp2t29" name="bg_message02" size="200,61" exported="true"/>
+    <image id="hp2t2a" name="bg_message" size="200,58" exported="true"/>
+    <image id="hp2t2b" name="bg_loading2" size="800,40" exported="true"/>
+    <image id="hp2t2c" name="bg_loading1" size="800,39" exported="true"/>
+    <image id="hp2t2d" name="bg_input" size="200,35" exported="true"/>
+  </resources>
+</packageDescription>sm752m.xml|974|<component size="100,50" margin="5,5,5,5" clipSoftness="10,10" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="hp2t1x" xy="0,0" size="100,50" filter="color" filterData="0.00,0.00,1.00,0.00">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="hp2t1w" xy="0,0" size="100,50">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3" name="title" xy="4,1" size="90,45" fontSize="25" color="#ffffff" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" singleLine="true" text="按钮">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.20"/>
+</component>
