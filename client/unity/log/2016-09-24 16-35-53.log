@@ -1,4 +1,0 @@
-﻿  错误！stackTrace=>UnityEngine.Debug:LogError(Object)
-FairyGUI.UIPanel:CreateUI_PlayMode() (at d:/FairyGUI-unity/Scripts/UI/UIPanel.cs:280)
-FairyGUI.UIPanel:Start() (at d:/FairyGUI-unity/Scripts/UI/UIPanel.cs:125)
-:ERROR-start******Create StartWin@StartWin failed ERROR-end*****]  !

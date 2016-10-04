@@ -43,8 +43,8 @@ public class Launcher : BaseBehaviour
         DontDestroyOnLoad( CachedGameObject );
 
         //加载资源
-        UIPackage.AddPackage("Asset/UI/pic/pic");
-        UIPackage.AddPackage( "Asset/UI/startWin/StartWin" );
+    //    UIPackage.AddPackage("Asset/UI/pic/pic");
+     //   UIPackage.AddPackage( "Asset/UI/startWin/StartWin" );
 
         //启动游戏
         Engine.StartEngine(CachedGameObject);
