@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hr1lc3wo" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="lvf4a" name="0" folder="" qualityOption="source" file="lvf4a.png" size="50,61" exported="true"/>
+    <image id="lvf4b" name="star-灰色" folder="" qualityOption="source" file="lvf4b.png" size="50,47" exported="true"/>
+    <image id="lvf4c" name="star-黄色" folder="" qualityOption="source" file="lvf4c.png" size="50,51" exported="true"/>
+    <image id="lvf4d" name="start_btn_entry" folder="" qualityOption="source" file="lvf4d.png" size="50,53" exported="true"/>
+    <image id="lvf4e" name="pic_已装备" folder="" qualityOption="source" file="lvf4e.png" size="50,50" exported="true"/>
+    <image id="lvf4f" name="pic_星星" folder="" qualityOption="source" file="lvf4f.png" size="50,49" exported="true"/>
+    <image id="lvf4g" name="btn_加号4" folder="" qualityOption="source" file="lvf4g.png" size="50,41" exported="true"/>
+    <image id="lvf4h" name="btn_加号3" folder="" qualityOption="source" file="lvf4h.png" size="50,41" exported="true"/>
+    <image id="lvf4i" name="btn_加号2" folder="" qualityOption="source" file="lvf4i.png" size="50,41" exported="true"/>
+    <image id="lvf4j" name="btn_加号1-拷贝-3" folder="" qualityOption="source" file="lvf4j.png" size="50,41" exported="true"/>
+    <image id="lvf4k" name="btn_加号1-拷贝-2" folder="" qualityOption="source" file="lvf4k.png" size="50,41" exported="true"/>
+    <image id="lvf4l" name="btn_加号1-拷贝" folder="" qualityOption="source" file="lvf4l.png" size="50,41" exported="true"/>
+    <image id="lvf4m" name="btn_加号1" folder="" qualityOption="source" file="lvf4m.png" size="50,41" exported="true"/>
+    <image id="lvf4n" name="9" folder="" qualityOption="source" file="lvf4n.png" size="50,61" exported="true"/>
+    <image id="lvf4o" name="8" folder="" qualityOption="source" file="lvf4o.png" size="50,61" exported="true"/>
+    <image id="lvf4p" name="7" folder="" qualityOption="source" file="lvf4p.png" size="50,61" exported="true"/>
+    <image id="lvf4q" name="6" folder="" qualityOption="source" file="lvf4q.png" size="50,61" exported="true"/>
+    <image id="lvf4r" name="5" folder="" qualityOption="source" file="lvf4r.png" size="50,61" exported="true"/>
+    <image id="lvf4s" name="4" folder="" qualityOption="source" file="lvf4s.png" size="50,61" exported="true"/>
+    <image id="lvf4t" name="3" folder="" qualityOption="source" file="lvf4t.png" size="50,61" exported="true"/>
+    <image id="lvf4u" name="2" folder="" qualityOption="source" file="lvf4u.png" size="50,61" exported="true"/>
+    <image id="lvf4v" name="1" folder="" qualityOption="source" file="lvf4v.png" size="50,61" exported="true"/>
+    <image id="ksjtw" name="hero_exppg_frame" folder="" qualityOption="source" file="ksjtw.png" size="280,28" exported="true" scale="9grid" scale9grid="70,7,140,14"/>
+    <image id="ksjtx" name="hero_exppg_green" folder="" qualityOption="source" file="ksjtx.png" size="72,38" exported="true" scale="9grid" scale9grid="18,10,18,16"/>
+  </resources>
+  <publish name="50" extractAlpha="true"/>
+</packageDescription>

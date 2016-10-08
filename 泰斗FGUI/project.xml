@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectDescription name="泰斗" type="Unity" id="ceeeb313af0a8b093549461cc6e24363">
+  <packages>
+    <package id="ho6a7tp8" name="200"/>
+    <package id="hr1lc3wo" name="50"/>
+    <package id="hqviwd96" name="150"/>
+    <package id="h5yhrd8o" name="400"/>
+    <package id="hsmesc6v" name="大图"/>
+    <package id="higxf3nw" name="窗口"/>
+  </packages>
+  <textSetting font="111111" size="12" color="#66ff00"/>
+  <scrollBars vertical="" horizontal="" defaultDisplay="visible"/>
+  <colorScheme value="自定义颜色 #FF0000"/>
+  <fontSizeScheme value="自定义字体大小 30&#xD;&#xA;自定义字体大小 20"/>
+</projectDescription>

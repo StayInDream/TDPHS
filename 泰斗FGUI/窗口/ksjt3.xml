@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,50" extention="Button">
+  <controller name="button" autoRadioGroupDepth="true" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <displayList>
+    <loader id="n0" name="icon" xy="0,0" size="150,50" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,1,2,3,4,5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1" name="icon1" xy="0,0" size="150,50" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2" name="icon2" xy="0,0" size="150,50" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3" name="icon3" xy="0,0" size="150,50" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4" name="icon4" xy="0,0" size="150,50" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n5" name="icon5" xy="0,0" size="150,50" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n6" name="title" xy="0,-2" size="150,50" fontSize="20" color="#00ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ho6a7tp8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <folder id="lvf4l" name="装备" folder=""/>
+    <image id="lvf41i" name="女性项链" folder="lvf4l" qualityOption="source" file="lvf41i.png" size="200,200" exported="true"/>
+    <image id="lvf41j" name="女性武器" folder="lvf4l" qualityOption="source" file="lvf41j.png" size="200,200" exported="true"/>
+    <image id="lvf41k" name="女性手镯" folder="lvf4l" qualityOption="source" file="lvf41k.png" size="200,200" exported="true"/>
+    <image id="lvf41l" name="女性帽子" folder="lvf4l" qualityOption="source" file="lvf41l.png" size="200,200" exported="true"/>
+    <image id="lvf41m" name="女性盔甲" folder="lvf4l" qualityOption="source" file="lvf41m.png" size="200,200" exported="true"/>
+    <image id="lvf41n" name="女性戒指" folder="lvf4l" qualityOption="source" file="lvf41n.png" size="200,200" exported="true"/>
+    <image id="lvf41o" name="女性翅膀" folder="lvf4l" qualityOption="source" file="lvf41o.png" size="200,200" exported="true"/>
+    <image id="lvf41p" name="男性靴子" folder="lvf4l" qualityOption="source" file="lvf41p.png" size="200,200" exported="true"/>
+    <image id="lvf41q" name="男性项链" folder="lvf4l" qualityOption="source" file="lvf41q.png" size="200,200" exported="true"/>
+    <image id="lvf41r" name="男性武器" folder="lvf4l" qualityOption="source" file="lvf41r.png" size="200,200" exported="true"/>
+    <image id="lvf41s" name="男性头盔" folder="lvf4l" qualityOption="source" file="lvf41s.png" size="200,200" exported="true"/>
+    <image id="lvf41t" name="男性手镯 " folder="lvf4l" qualityOption="source" file="lvf41t.png" size="200,200" exported="true"/>
+    <image id="lvf41u" name="男性盔甲" folder="lvf4l" qualityOption="source" file="lvf41u.png" size="200,200" exported="true"/>
+    <image id="lvf41v" name="男性戒指" folder="lvf4l" qualityOption="source" file="lvf41v.png" size="200,200" exported="true"/>
+    <image id="lvf41w" name="男性翅膀" folder="lvf4l" qualityOption="source" file="lvf41w.png" size="200,200" exported="true"/>
+    <image id="lvf41x" name="女性靴子" folder="lvf4l" qualityOption="source" file="lvf41x.png" size="200,200" exported="true"/>
+    <image id="lvf41y" name="技能" folder="" qualityOption="source" file="lvf41y.png" size="200,200" exported="true"/>
+    <image id="lvf41z" name="大体力丹" folder="" qualityOption="source" file="lvf41z.png" size="200,200" exported="true"/>
+    <image id="lvf420" name="背包" folder="" qualityOption="source" file="lvf420.png" size="200,200" exported="true"/>
+    <image id="lvf421" name="宝箱" folder="" qualityOption="source" file="lvf421.png" size="200,200" exported="true"/>
+    <image id="lvf422" name="pic_注册输入框" folder="" qualityOption="source" file="lvf422.png" size="200,35" exported="true"/>
+    <image id="lvf423" name="pic_云2" folder="" qualityOption="source" file="lvf423.png" size="200,143" exported="true"/>
+    <image id="lvf424" name="pic_云1" folder="" qualityOption="source" file="lvf424.png" size="200,78" exported="true"/>
+    <image id="lvf425" name="pic_信息底" folder="" qualityOption="source" file="lvf425.png" size="200,58" exported="true"/>
+    <image id="lvf426" name="pic_深蓝" folder="" qualityOption="source" file="lvf426.png" size="200,61" exported="true"/>
+    <image id="lvf427" name="pic_个人信息" folder="" qualityOption="source" file="lvf427.png" size="200,68" exported="true"/>
+    <image id="lvf428" name="iocn_yi" folder="" qualityOption="source" file="lvf428.png" size="200,200" exported="true"/>
+    <image id="lvf429" name="iocn_ho" folder="" qualityOption="source" file="lvf429.png" size="200,200" exported="true"/>
+    <image id="lvf42a" name="iocn_fo" folder="" qualityOption="source" file="lvf42a.png" size="200,200" exported="true"/>
+    <image id="lvf42b" name="icon_zhu" folder="" qualityOption="source" file="lvf42b.png" size="200,200" exported="true"/>
+    <image id="lvf42c" name="icon_up" folder="" qualityOption="source" file="lvf42c.png" size="200,200" exported="true"/>
+    <image id="lvf42d" name="icon_li" folder="" qualityOption="source" file="lvf42d.png" size="200,200" exported="true"/>
+    <image id="lvf42e" name="bg_售出价格" folder="" qualityOption="source" file="lvf42e.png" size="200,60" exported="true"/>
+    <image id="lvf42f" name="bg_经验条长" folder="" qualityOption="source" file="lvf42f.png" size="200,15" exported="true"/>
+    <image id="lvf42g" name="bg_经验条短" folder="" qualityOption="source" file="lvf42g.png" size="200,24" exported="true"/>
+    <image id="lvf42h" name="bg_金币" folder="" qualityOption="source" file="lvf42h.png" size="200,48" exported="true"/>
+    <image id="lvf42i" name="bg_角色_详细信息" folder="" qualityOption="source" file="lvf42i.png" size="200,23" exported="true"/>
+    <image id="lvf42j" name="bg_角色_生命" folder="" qualityOption="source" file="lvf42j.png" size="200,51" exported="true" scale="9grid" scale9grid="50,13,100,26"/>
+    <image id="lvf42k" name="bg_道具" folder="" qualityOption="source" file="lvf42k.png" size="200,200" exported="true"/>
+    <image id="lvf42l" name="钻石" folder="" qualityOption="source" file="lvf42l.png" size="200,200" exported="true"/>
+    <image id="lvf42m" name="战斗" folder="" qualityOption="source" file="lvf42m.png" size="200,200" exported="true"/>
+    <image id="lvf42n" name="小体力丹" folder="" qualityOption="source" file="lvf42n.png" size="200,200" exported="true"/>
+    <image id="lvf42o" name="系统" folder="" qualityOption="source" file="lvf42o.png" size="200,200" exported="true"/>
+    <image id="lvf42p" name="头像底板女性" folder="" qualityOption="source" file="lvf42p.png" size="200,85" exported="true"/>
+    <image id="lvf42q" name="头像底板男性" folder="" qualityOption="source" file="lvf42q.png" size="200,85" exported="true"/>
+    <image id="lvf42r" name="商城" folder="" qualityOption="source" file="lvf42r.png" size="200,200" exported="true"/>
+    <image id="lvf42s" name="任务" folder="" qualityOption="source" file="lvf42s.png" size="200,200" exported="true"/>
+    <image id="lvf42t" name="金币" folder="" qualityOption="source" file="lvf42t.png" size="200,200" exported="true"/>
+    <image id="ksjt2u" name="start_server_bg" folder="" qualityOption="source" file="ksjt2u.png" size="302,57" exported="true"/>
+    <image id="ksjt2v" name="start_password" folder="" qualityOption="source" file="ksjt2v.png" size="118,64" exported="true"/>
+    <image id="ksjt2w" name="start_input_bg" folder="" qualityOption="source" file="ksjt2w.png" size="327,84" exported="true"/>
+    <image id="ksjt2x" name="start_acount" folder="" qualityOption="source" file="ksjt2x.png" size="119,66" exported="true"/>
+    <image id="ksjt2y" name="hero_exppg_frame" folder="" qualityOption="source" file="ksjt2y.png" size="280,28"/>
+    <image id="ksjt2z" name="start_server_choose" folder="" qualityOption="source" file="ksjt2z.png" size="302,57" exported="true"/>
+    <image id="ksjt30" name="start_server_bg01" folder="" qualityOption="source" file="ksjt30.png" size="242,64" exported="true"/>
+    <image id="ksjt31" name="start_entergame01" folder="" qualityOption="source" file="ksjt31.png" size="214,87" exported="true"/>
+    <image id="ksjt32" name="start_entergame02" folder="" qualityOption="source" file="ksjt32.png" size="214,87" exported="true"/>
+    <image id="ksjt33" name="start_notice_title" folder="" qualityOption="source" file="ksjt33.png" size="225,55" exported="true"/>
+  </resources>
+  <publish name="200" extractAlpha="true"/>
+</packageDescription>

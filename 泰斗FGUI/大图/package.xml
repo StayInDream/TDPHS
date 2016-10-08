@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hsmesc6v" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="lvf43" name="map_bg" folder="" qualityOption="source" file="lvf43.png" size="500,281" exported="true"/>
+    <image id="lvf44" name="BG" folder="" qualityOption="source" file="lvf44.png" size="500,281" exported="true"/>
+    <image id="lvf45" name="pic_进度人物" folder="" qualityOption="source" file="lvf45.png" size="500,720" exported="true"/>
+  </resources>
+  <publish name="大图" extractAlpha="true"/>
+</packageDescription>

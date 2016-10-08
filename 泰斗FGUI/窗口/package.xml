@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="higxf3nw" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lvf41" name="StartWindow" folder="" file="lvf41.xml" exported="true"/>
+    <folder id="ksjt2" name="通用组件" folder=""/>
+    <component id="ksjt3" name="button" folder="ksjt2" file="ksjt3.xml" exported="true"/>
+    <component id="ksjt4" name="ProgressBar1" folder="ksjt2" file="ksjt4.xml" exported="true"/>
+    <component id="ksjt5" name="Element_ServerItem" folder="ksjt2" file="ksjt5.xml" exported="true"/>
+  </resources>
+  <publish name="窗口" extractAlpha="true"/>
+</packageDescription>

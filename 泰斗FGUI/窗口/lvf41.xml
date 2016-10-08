@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1136,640">
+  <controller name="开始窗口控制器" autoRadioGroupDepth="true" pages="0,登录,2,选服,3,加载,4,角色,5,角色选择" selected="0"/>
+  <displayList>
+    <loader id="n14" name="Loader_StartBG" xy="0,0" size="1136,640" touchable="false" url="ui://hsmesc6vlvf44" fill="scaleFree">
+      <gearDisplay controller="开始窗口控制器" pages="0,2,3,4,5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n15" name="Bar_Loading" src="ksjt4" xy="268,520" size="600,20">
+      <gearDisplay controller="开始窗口控制器" pages="3"/>
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n16" name="n16" xy="418,547" size="300,19" font="111111" fontSize="12" color="#ffff00" align="center" vAlign="middle" letterSpacing="3" autoSize="height" strokeColor="#990000" text="加载中...">
+      <gearDisplay controller="开始窗口控制器" pages="3"/>
+      <relation target="n15" sidePair="center-center"/>
+    </text>
+    <image id="n3" name="n3" src="ksjt2x" pkg="ho6a7tp8" xy="371,219" group="n4">
+      <relation target="" sidePair="right-center"/>
+    </image>
+    <image id="n6" name="n6" src="ksjt2w" pkg="ho6a7tp8" xy="472,215" group="n4" aspect="true">
+      <relation target="n3" sidePair="left-right"/>
+    </image>
+    <image id="n7" name="n7" src="ksjt2v" pkg="ho6a7tp8" xy="370,316" group="n4">
+      <relation target="n3" sidePair="top-bottom"/>
+    </image>
+    <image id="n8" name="n8" src="ksjt2w" pkg="ho6a7tp8" xy="470,306" group="n4">
+      <relation target="n7" sidePair="left-right"/>
+    </image>
+    <text id="n9" name="Tinput_ZhangHao" xy="499,240" size="272,35" group="n4" input="true" font="111111" fontSize="25" color="#66ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" strokeColor="#990000" singleLine="true" text="123456789">
+      <relation target="n6" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n10" name="Tinput_MiMa" xy="497,332" size="272,35" group="n4" input="true" font="111111" fontSize="25" color="#66ff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" password="true" bold="true" strokeColor="#990000" singleLine="true" text="123456789">
+      <relation target="n8" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n11" name="btn_ZheCe" src="ksjt3" xy="382,437" size="120,50" group="n4">
+      <relation target="n7" sidePair="top-bottom"/>
+      <Button title="注册" icon="ui://hqviwd96lvf43l"/>
+    </component>
+    <component id="n12" name="btn_SuiJi" src="ksjt3" xy="785,226" size="60,60" group="n4" aspect="true">
+      <relation target="n6" sidePair="left-right"/>
+      <Button icon="ui://hr1lc3wolvf4d"/>
+    </component>
+    <component id="n13" name="btn_JinRu" src="ksjt3" xy="690,434" size="120,50" group="n4">
+      <gearDisplay controller="开始窗口控制器" pages="0"/>
+      <relation target="n11" sidePair="left-right"/>
+      <Button title="进入" icon="ui://hqviwd96lvf43d" controller="开始窗口控制器" page="2"/>
+    </component>
+    <group id="n4" name="登录界面" xy="370,215" size="475,272" advanced="true" collapsed="true">
+      <gearDisplay controller="开始窗口控制器" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n20" name="n20" src="lvf44" pkg="h5yhrd8o" xy="347,84" size="450,411" group="n21">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n22" name="List_Server" xy="369,193" size="409,280" group="n21" layout="flow_hz" overflow="scroll" margin="0,0,0,0" clipSoftness="10,10" lineGap="5" colGap="5" lineItemCount="2" defaultItem="ui://higxf3nwksjt5">
+      <relation target="n20" sidePair="width-width,height-height"/>
+    </list>
+    <component id="n23" name="go_curServer" src="ksjt5" xy="476,134" group="n21">
+      <relation target="n20" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n26" name="btn_entergame" src="ksjt3" xy="489,506" size="161,52" group="n21">
+      <relation target="n20" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://ho6a7tp8ksjt31"/>
+    </component>
+    <group id="n21" name="选服界面" xy="347,84" size="450,474" advanced="true" collapsed="true">
+      <gearDisplay controller="开始窗口控制器" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n27" name="n27" src="lvf46" pkg="h5yhrd8o" xy="717,56" size="400,495" group="n28"/>
+    <text id="n29" name="n29" xy="845,68" size="144,36" group="n28" font="111111" fontSize="20" color="#ffff00" align="center" vAlign="middle" letterSpacing="3" autoSize="none" strokeColor="#990000" text="公告">
+      <relation target="n27" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n34" name="n34" src="lvf42j" pkg="ho6a7tp8" xy="0,45" size="401,50" group="n28">
+      <relation target="n31" sidePair="width-width,height-height"/>
+      <relation target="n31" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n30" name="T_Notice" xy="738,109" size="356,397" group="n28" font="111111" fontSize="20" color="#66ff00" letterSpacing="3" ubb="true" autoSize="none" strokeColor="#990000" text="公告">
+      <relation target="n27" sidePair="width-width,height-height"/>
+      <relation target="n27" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n31" name="T_PlayerName" xy="3,48" size="397,41" group="n28" font="111111" fontSize="25" color="#ffff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" text="角色名+等级">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n33" name="btn_change" src="ksjt3" xy="96,514" size="150,50" group="n28" aspect="true">
+      <relation target="n28" sidePair="bottom-bottom"/>
+      <Button title="更换角色" icon="ui://hqviwd96lvf43l"/>
+    </component>
+    <component id="n32" name="btn_startgame" src="ksjt3" xy="499,539" group="n28">
+      <relation target="n28" sidePair="center-center,bottom-bottom"/>
+      <Button title="开始游戏" titleColor="#66ff00" icon="ui://hqviwd96lvf434"/>
+    </component>
+    <group id="n28" name="角色界面" xy="0,45" size="1117,544" advanced="true">
+      <gearDisplay controller="开始窗口控制器" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+    <component id="n35" name="btn_sure" src="ksjt3" xy="493,572" group="n38">
+      <Button title="确定" icon="ui://hqviwd96lvf427"/>
+    </component>
+    <image id="n37" name="n37" src="lvf42j" pkg="ho6a7tp8" xy="393,500" size="349,51" group="n38"/>
+    <text id="n36" name="Tinput_name" xy="397,501" size="340,45" group="n38" input="true" maxLength="12" restrict="数字" font="111111" fontSize="25" color="#ffff00" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" bold="true" strokeColor="#990000" text="请输入名字..."/>
+    <group id="n38" name="角色选择界面" xy="393,500" size="349,122" advanced="true">
+      <gearDisplay controller="开始窗口控制器" pages="5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n16" tween="true" startValue="0.1" endValue="1" duration="24" repeat="-1" yoyo="true"/>
+    <item time="0" type="XY" target="n4" tween="true" startValue="-510,215" endValue="330,215" duration="12"/>
+    <item time="12" type="XY" target="n4" tween="true" startValue="330,215"/>
+    <item time="24" type="Alpha" target="n16" tween="true" startValue="1" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

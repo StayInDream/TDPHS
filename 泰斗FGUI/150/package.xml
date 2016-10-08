@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hqviwd96" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="lvf422" name="深蓝3" folder="" qualityOption="source" file="lvf422.png" size="150,32" exported="true"/>
+    <image id="lvf423" name="深蓝2" folder="" qualityOption="source" file="lvf423.png" size="150,32" exported="true"/>
+    <image id="lvf424" name="公用四字按钮198x70_4" folder="" qualityOption="source" file="lvf424.png" size="150,53" exported="true"/>
+    <image id="lvf425" name="公用四字按钮198x70_3" folder="" qualityOption="source" file="lvf425.png" size="150,53" exported="true"/>
+    <image id="lvf426" name="公用四字按钮198x70_2" folder="" qualityOption="source" file="lvf426.png" size="150,53" exported="true"/>
+    <image id="lvf427" name="公用四字按钮198x70_1" folder="" qualityOption="source" file="lvf427.png" size="150,53" exported="true" scale="9grid" scale9grid="5,5,140,46"/>
+    <image id="lvf428" name="地图-箱子" folder="" qualityOption="source" file="lvf428.png" size="150,159" exported="true"/>
+    <image id="lvf429" name="地图-普通" folder="" qualityOption="source" file="lvf429.png" size="150,157" exported="true"/>
+    <image id="lvf42a" name="地图-精英" folder="" qualityOption="source" file="lvf42a.png" size="150,162" exported="true"/>
+    <image id="lvf42b" name="pic_线" folder="" qualityOption="source" file="lvf42b.png" size="150,1" exported="true"/>
+    <image id="lvf42c" name="pic_天使" folder="" qualityOption="source" file="lvf42c.png" size="150,65" exported="true"/>
+    <image id="lvf42d" name="pic_体力" folder="" qualityOption="source" file="lvf42d.png" size="150,17" exported="true"/>
+    <image id="lvf42e" name="pic_历练" folder="" qualityOption="source" file="lvf42e.png" size="150,24" exported="true"/>
+    <image id="lvf42f" name="pic_经验条长" folder="" qualityOption="source" file="lvf42f.png" size="150,8" exported="true"/>
+    <image id="lvf42g" name="pic_经验条短" folder="" qualityOption="source" file="lvf42g.png" size="150,14" exported="true"/>
+    <image id="lvf42h" name="pic_传说" folder="" qualityOption="source" file="lvf42h.png" size="150,65" exported="true"/>
+    <image id="lvf42i" name="combo" folder="" qualityOption="source" file="lvf42i.png" size="150,70" exported="true"/>
+    <image id="lvf42j" name="btn_装备4" folder="" qualityOption="source" file="lvf42j.png" size="150,57" exported="true"/>
+    <image id="lvf42k" name="btn_装备3" folder="" qualityOption="source" file="lvf42k.png" size="150,57" exported="true"/>
+    <image id="lvf42l" name="btn_装备2" folder="" qualityOption="source" file="lvf42l.png" size="150,57" exported="true"/>
+    <image id="lvf42m" name="btn_装备1" folder="" qualityOption="source" file="lvf42m.png" size="150,57" exported="true"/>
+    <image id="lvf42n" name="btn_整理4" folder="" qualityOption="source" file="lvf42n.png" size="150,71" exported="true"/>
+    <image id="lvf42o" name="btn_整理3" folder="" qualityOption="source" file="lvf42o.png" size="150,71" exported="true"/>
+    <image id="lvf42p" name="btn_整理2" folder="" qualityOption="source" file="lvf42p.png" size="150,71" exported="true"/>
+    <image id="lvf42q" name="btn_整理1" folder="" qualityOption="source" file="lvf42q.png" size="150,71" exported="true"/>
+    <image id="lvf42r" name="btn_详细信息4" folder="" qualityOption="source" file="lvf42r.png" size="150,51" exported="true"/>
+    <image id="lvf42s" name="btn_详细信息3" folder="" qualityOption="source" file="lvf42s.png" size="150,51" exported="true"/>
+    <image id="lvf42t" name="btn_详细信息2" folder="" qualityOption="source" file="lvf42t.png" size="150,51" exported="true"/>
+    <image id="lvf42u" name="btn_详细信息1" folder="" qualityOption="source" file="lvf42u.png" size="150,51" exported="true"/>
+    <image id="lvf42v" name="btn_深蓝4" folder="" qualityOption="source" file="lvf42v.png" size="150,32" exported="true"/>
+    <image id="lvf42w" name="btn_深蓝1" folder="" qualityOption="source" file="lvf42w.png" size="150,32" exported="true"/>
+    <image id="lvf42x" name="btn_流畅4" folder="" qualityOption="source" file="lvf42x.png" size="150,24" exported="true"/>
+    <image id="lvf42y" name="btn_流畅3" folder="" qualityOption="source" file="lvf42y.png" size="150,24" exported="true"/>
+    <image id="lvf42z" name="btn_流畅2" folder="" qualityOption="source" file="lvf42z.png" size="150,24" exported="true"/>
+    <image id="lvf430" name="btn_流畅1" folder="" qualityOption="source" file="lvf430.png" size="150,24" exported="true"/>
+    <image id="lvf431" name="btn_领取奖励4" folder="" qualityOption="source" file="lvf431.png" size="150,50" exported="true"/>
+    <image id="lvf432" name="btn_领取奖励3" folder="" qualityOption="source" file="lvf432.png" size="150,50" exported="true"/>
+    <image id="lvf433" name="btn_领取奖励2" folder="" qualityOption="source" file="lvf433.png" size="150,50" exported="true"/>
+    <image id="lvf434" name="btn_领取奖励1" folder="" qualityOption="source" file="lvf434.png" size="150,50" exported="true"/>
+    <image id="lvf435" name="btn_火爆4" folder="" qualityOption="source" file="lvf435.png" size="150,24" exported="true"/>
+    <image id="lvf436" name="btn_火爆3" folder="" qualityOption="source" file="lvf436.png" size="150,24" exported="true"/>
+    <image id="lvf437" name="btn_火爆2" folder="" qualityOption="source" file="lvf437.png" size="150,24" exported="true"/>
+    <image id="lvf438" name="btn_火爆1" folder="" qualityOption="source" file="lvf438.png" size="150,24" exported="true"/>
+    <image id="lvf439" name="btn_红4" folder="" qualityOption="source" file="lvf439.png" size="150,48" exported="true"/>
+    <image id="lvf43a" name="btn_红4(1)" folder="" qualityOption="source" file="lvf43a.png" size="150,48" exported="true"/>
+    <image id="lvf43b" name="btn_红3" folder="" qualityOption="source" file="lvf43b.png" size="150,48" exported="true"/>
+    <image id="lvf43c" name="btn_红2" folder="" qualityOption="source" file="lvf43c.png" size="150,48" exported="true"/>
+    <image id="lvf43d" name="btn_红1" folder="" qualityOption="source" file="lvf43d.png" size="150,48" exported="true"/>
+    <image id="lvf43e" name="btn_关闭4" folder="" qualityOption="source" file="lvf43e.png" size="150,150" exported="true"/>
+    <image id="lvf43f" name="btn_关闭3" folder="" qualityOption="source" file="lvf43f.png" size="150,150" exported="true"/>
+    <image id="lvf43g" name="btn_关闭2" folder="" qualityOption="source" file="lvf43g.png" size="150,150" exported="true"/>
+    <image id="lvf43h" name="btn_关闭1" folder="" qualityOption="source" file="lvf43h.png" size="150,150" exported="true"/>
+    <image id="lvf43i" name="btn_公共蓝4" folder="" qualityOption="source" file="lvf43i.png" size="150,51" exported="true"/>
+    <image id="lvf43j" name="btn_公共蓝3" folder="" qualityOption="source" file="lvf43j.png" size="150,51" exported="true"/>
+    <image id="lvf43k" name="btn_公共蓝2" folder="" qualityOption="source" file="lvf43k.png" size="150,51" exported="true"/>
+    <image id="lvf43l" name="btn_公共蓝1" folder="" qualityOption="source" file="lvf43l.png" size="150,51" exported="true"/>
+    <image id="lvf43m" name="btn_改名4" folder="" qualityOption="source" file="lvf43m.png" size="150,76" exported="true"/>
+    <image id="lvf43n" name="btn_改名3" folder="" qualityOption="source" file="lvf43n.png" size="150,76" exported="true"/>
+    <image id="lvf43o" name="btn_改名2" folder="" qualityOption="source" file="lvf43o.png" size="150,76" exported="true"/>
+    <image id="lvf43p" name="btn_改名1" folder="" qualityOption="source" file="lvf43p.png" size="150,76" exported="true" scale="9grid" scale9grid="10,10,130,56"/>
+    <image id="lvf43q" name="btn_返回2" folder="" qualityOption="source" file="lvf43q.png" size="150,60" exported="true"/>
+    <image id="lvf43r" name="btn_返回1" folder="" qualityOption="source" file="lvf43r.png" size="150,60" exported="true"/>
+    <image id="lvf43s" name="btn_弹框4" folder="" qualityOption="source" file="lvf43s.png" size="150,50" exported="true"/>
+    <image id="lvf43t" name="btn_弹框3" folder="" qualityOption="source" file="lvf43t.png" size="150,50" exported="true"/>
+    <image id="lvf43u" name="btn_弹框2" folder="" qualityOption="source" file="lvf43u.png" size="150,50" exported="true"/>
+    <image id="lvf43v" name="btn_弹框1" folder="" qualityOption="source" file="lvf43v.png" size="150,50" exported="true"/>
+    <image id="lvf43w" name="btn_出售4" folder="" qualityOption="source" file="lvf43w.png" size="150,76" exported="true"/>
+    <image id="lvf43x" name="btn_出售3" folder="" qualityOption="source" file="lvf43x.png" size="150,76" exported="true"/>
+    <image id="lvf43y" name="btn_出售2" folder="" qualityOption="source" file="lvf43y.png" size="150,76" exported="true"/>
+    <image id="lvf43z" name="btn_出售1" folder="" qualityOption="source" file="lvf43z.png" size="150,76" exported="true"/>
+    <image id="lvf440" name="btn_充值4" folder="" qualityOption="source" file="lvf440.png" size="150,51" exported="true"/>
+    <image id="lvf441" name="btn_充值3" folder="" qualityOption="source" file="lvf441.png" size="150,51" exported="true"/>
+    <image id="lvf442" name="btn_充值2" folder="" qualityOption="source" file="lvf442.png" size="150,51" exported="true"/>
+    <image id="lvf443" name="btn_充值1" folder="" qualityOption="source" file="lvf443.png" size="150,51" exported="true"/>
+    <image id="lvf444" name="btn_2返回4" folder="" qualityOption="source" file="lvf444.png" size="150,150" exported="true"/>
+    <image id="lvf445" name="btn_2返回3" folder="" qualityOption="source" file="lvf445.png" size="150,150" exported="true"/>
+    <image id="lvf446" name="btn_2返回2" folder="" qualityOption="source" file="lvf446.png" size="150,150" exported="true"/>
+    <image id="lvf447" name="btn_2返回1" folder="" qualityOption="source" file="lvf447.png" size="150,150" exported="true"/>
+  </resources>
+  <publish name="150" extractAlpha="true"/>
+</packageDescription>

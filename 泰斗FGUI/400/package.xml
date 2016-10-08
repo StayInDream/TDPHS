@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h5yhrd8o" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="lvf40" name="bg_背包" folder="" qualityOption="source" file="lvf40.png" size="400,568" exported="true"/>
+    <image id="lvf41" name="pic_进度人物" folder="" qualityOption="source" file="lvf41.png" size="400,576" exported="true"/>
+    <image id="lvf42" name="bg_装备详情" folder="" qualityOption="source" file="lvf42.png" size="400,568" exported="true"/>
+    <image id="lvf43" name="bg_注册" folder="" qualityOption="source" file="lvf43.png" size="400,361" exported="true"/>
+    <image id="lvf44" name="bg_选服底" folder="" qualityOption="source" file="lvf44.png" size="400,267" exported="true" scale="9grid" scale9grid="100,113,200,88"/>
+    <image id="lvf45" name="bg_角色" folder="" qualityOption="source" file="lvf45.png" size="400,568" exported="true"/>
+    <image id="lvf46" name="bg_公告底" folder="" qualityOption="source" file="lvf46.png" size="400,453" exported="true" scale="9grid" scale9grid="100,114,200,228"/>
+    <image id="lvf47" name="bg_个人信息--弹框" folder="" qualityOption="source" file="lvf47.png" size="400,438" exported="true"/>
+    <image id="lvf48" name="bg_弹框" folder="" qualityOption="source" file="lvf48.png" size="400,308" exported="true"/>
+  </resources>
+  <publish name="400" extractAlpha="true"/>
+</packageDescription>
