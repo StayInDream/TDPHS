@@ -1,0 +1,10 @@
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\bin\Debug\ChatServerClient.exe.config
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\bin\Debug\ChatServerClient.exe
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\bin\Debug\ChatServerClient.pdb
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\bin\Debug\Photon3DotNet.dll
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\bin\Debug\websocket-sharp.dll
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\bin\Debug\Photon3DotNet.pdb
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\bin\Debug\Photon3DotNet.xml
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\obj\Debug\ChatServerClient.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\obj\Debug\ChatServerClient.exe
+d:\documents\visual studio 2015\Projects\ChatServerClient\ChatServerClient\obj\Debug\ChatServerClient.pdb

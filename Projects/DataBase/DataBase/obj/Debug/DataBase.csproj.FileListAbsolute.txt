@@ -1,0 +1,14 @@
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\DataBase.exe.config
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\DataBase.exe
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\DataBase.pdb
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\FluentNHibernate.dll
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\Iesi.Collections.dll
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\NHibernate.dll
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\FluentNHibernate.pdb
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\FluentNHibernate.xml
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\Iesi.Collections.xml
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\NHibernate.xml
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\obj\Debug\DataBase.exe
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\obj\Debug\DataBase.pdb
+d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\NHibernate.Mapping.Attributes.dll
