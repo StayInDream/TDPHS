@@ -1,0 +1,5 @@
+E:\TDPHS\TDPHS\Projects\TaiDouSever\TaiDouSever\obj\Debug\TaiDouSever.csprojResolveAssemblyReference.cache
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouSever\bin\TaidouSever.dll
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouSever\bin\TaidouSever.pdb
+E:\TDPHS\TDPHS\Projects\TaiDouSever\TaiDouSever\obj\Debug\TaidouSever.dll
+E:\TDPHS\TDPHS\Projects\TaiDouSever\TaiDouSever\obj\Debug\TaidouSever.pdb

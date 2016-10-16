@@ -21,7 +21,6 @@ namespace DataBase.Model.Mapping
             Map( x => x.Password ).Column( "password" );
             Map( x => x.Age ).Column( "age" );
             Table("testuser"); //映射的库
-
         }
     }
 }

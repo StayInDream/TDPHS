@@ -17,7 +17,7 @@ namespace DataBase
         private static ISessionFactory sessionFactory = null;
         private static void InitSessionFactory()
         {
-            MySQLConfiguration configuration = MySQLConfiguration.Standard.ConnectionString( db => db.Server( "127.0.0.1" ).Database( "泰斗" ).Username( "root" ).Password( "root" ) );
+            MySQLConfiguration configuration = MySQLConfiguration.Standard.ConnectionString( db => db.Server("localhost" ).Database( "泰斗" ).Username( "root" ).Password( "root" ) );
 
 
             sessionFactory = Fluently.Configure().Database( configuration ).Mappings( x => x.FluentMappings.AddFromAssemblyOf<NHibernateHelper>() ).BuildSessionFactory();

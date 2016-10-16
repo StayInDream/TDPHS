@@ -12,3 +12,14 @@ d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\NHibernate.
 d:\documents\visual studio 2015\Projects\DataBase\DataBase\obj\Debug\DataBase.exe
 d:\documents\visual studio 2015\Projects\DataBase\DataBase\obj\Debug\DataBase.pdb
 d:\documents\visual studio 2015\Projects\DataBase\DataBase\bin\Debug\NHibernate.Mapping.Attributes.dll
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\DataBase.exe.config
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\obj\Debug\DataBase.exe
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\obj\Debug\DataBase.pdb
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\DataBase.exe
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\DataBase.pdb
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\Iesi.Collections.dll
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\NHibernate.dll
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\NHibernate.Mapping.Attributes.dll
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\Iesi.Collections.xml
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\bin\Debug\NHibernate.xml
+E:\TDPHS\TDPHS\Projects\DataBase\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache

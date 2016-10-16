@@ -1,0 +1,8 @@
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouSever\bin\TaidouServer.dll
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouSever\bin\TaidouServer.pdb
+E:\TDPHS\TDPHS\Projects\TaiDouSever\TaiDouSever\obj\Debug\TaidouServer.dll
+E:\TDPHS\TDPHS\Projects\TaiDouSever\TaiDouSever\obj\Debug\TaidouServer.pdb
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouSever\bin\log4net.config
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouServer\bin\log4net.config
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouServer\bin\TaidouServer.dll
+D:\MyPhoton\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\TaidouServer\bin\TaidouServer.pdb
